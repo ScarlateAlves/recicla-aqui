@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
 
-module.exports = nextConfig
+const withPlugins = require('next-compose-plugins');
+const withTM = require('next-transpile-modules')([
+  'react-extras'
+]);
+
+
+module.exports = withPlugins(
+  [withTM],
+  {
+    reactStrictMode: true,
+  }
+)

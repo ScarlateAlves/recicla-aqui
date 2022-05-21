@@ -9,9 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rebass/forms": "^4.0.6",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.8.0",
+    "@mui/styled-engine-sc": "^5.8.0",
     "next": "12.1.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^9.0.0",
+    "nookies": "^2.5.2",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-extras": "^2.0.0",
+    "rebass": "^4.0.7",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "eslint": "8.16.0",
